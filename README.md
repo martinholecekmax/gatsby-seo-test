@@ -23,3 +23,13 @@ WebPageTest test: https://www.webpagetest.org/result/230813_BiDcFF_2K7/
 ### 1. Unused JavaScript and CSS
 
 Create a large number of unused components inside the megapack folder to test the effect of unused JavaScript and CSS on SEO.
+
+Results:
+
+- PageSpeed Insights: https://pagespeed.web.dev/analysis/https-gatsbyseotestmaster-gatsbyjs-io/orvqxu106l?form_factor=mobile
+
+The large number of unused components in the megapack folder does not seem to have any effect on SEO. The unused components are not included in the final build.
+
+### 2. Install unused npm packages
+
+Install a couple of unused npm packages to test the effect of unused JavaScript and CSS on SEO.
