@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const BASE_DIR = 'src/megapack';
-const NUM_COMPONENTS = 100;
+const NUM_COMPONENTS = 1000;
 
 if (!fs.existsSync(BASE_DIR)) {
     fs.mkdirSync(BASE_DIR, { recursive: true });

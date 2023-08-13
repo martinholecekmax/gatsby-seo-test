@@ -17,3 +17,9 @@ The baseline branch will be a simple site with no images, scripts, etc. The only
 PageSpeed Insights test: https://pagespeed.web.dev/analysis/https-gatsbyseotestmaster-gatsbyjs-io/se5xch6n9w?form_factor=mobile
 
 WebPageTest test: https://www.webpagetest.org/result/230813_BiDcFF_2K7/
+
+## Tests
+
+### 1. Unused JavaScript and CSS
+
+Create a large number of unused components inside the megapack folder to test the effect of unused JavaScript and CSS on SEO.

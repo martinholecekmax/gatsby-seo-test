@@ -1,0 +1,11 @@
+.container {
+    padding-top: 10px;
+    font-weight: 500;
+    color: #a7a9ac;
+}
+
+@media (max-width: 800px) {
+    .container {
+        font-size: 14px;
+    }
+}
