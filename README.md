@@ -44,6 +44,6 @@ Results:
 
 Seems to have no effect on SEO. I've also tried to import the button from this package on the home page and it doesn't seem to have any effect on SEO.
 
-Try next to add bootstrap package:
+Try next to add the bootstrap package:
 
 npm install react-bootstrap bootstrap

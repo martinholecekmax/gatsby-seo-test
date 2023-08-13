@@ -1,7 +1,7 @@
 import * as React from "react"
 import { SEO } from '../components/seo'
 import { Button } from '@mui/material'
-import { Alert } from 'bootstrap'
+import { Alert } from 'react-bootstrap'
 
 const pageStyles = {
   color: "#232129",
@@ -133,6 +133,7 @@ const IndexPage = () => {
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
+      <Alert variant="success">This is a success alert—check it out!</Alert>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
@@ -147,7 +148,6 @@ const IndexPage = () => {
             {docLink.text}
           </a>
         </li>
-        <Alert variant="success">This is a success alert—check it out!</Alert>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
             <span>
