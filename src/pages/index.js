@@ -1,9 +1,9 @@
 import * as React from "react"
+import { SEO } from '../components/seo'
 
 const pageStyles = {
   color: "#232129",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
@@ -173,4 +173,5 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+// eslint-disable-next-line react/jsx-pascal-case
+export const Head = () => <SEO />
