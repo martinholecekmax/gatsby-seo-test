@@ -56,3 +56,15 @@ Doesn't seem to any effect on Performance or SEO but LCP and Speed Index slightl
 
 Before WebPageTest test: https://www.webpagetest.org/vitals.php?test=230813_BiDcMA_2VT&run=1&cached=0#lcp
 After WebPageTest test: https://www.webpagetest.org/vitals.php?test=230813_BiDcN8_2Y8&run=1&cached=0#lcp
+
+### 3. Add images
+
+Add a single image inside an image tag without any attributes.
+
+Results:
+
+Performance slightly decreases due to CLS.
+
+- PageSpeed Insights: https://pagespeed.web.dev/analysis/https-gatsbyseotestmaster-gatsbyjs-io/8zz4zjo0vi?form_factor=mobile
+
+Fix CLS by adding width and height attributes to the image tag.
