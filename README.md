@@ -47,3 +47,12 @@ Seems to have no effect on SEO. I've also tried to import the button from this p
 Try next to add the bootstrap package:
 
 npm install react-bootstrap bootstrap
+
+Results:
+
+Doesn't seem to any effect on Performance or SEO but LCP and Speed Index slightly increase.
+
+- PageSpeed Insights: https://pagespeed.web.dev/analysis/https-gatsbyseotestmaster-gatsbyjs-io/4vbqfv6oxf?form_factor=mobile
+
+Before WebPageTest test: https://www.webpagetest.org/vitals.php?test=230813_BiDcMA_2VT&run=1&cached=0#lcp
+After WebPageTest test: https://www.webpagetest.org/vitals.php?test=230813_BiDcN8_2Y8&run=1&cached=0#lcp

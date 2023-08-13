@@ -134,6 +134,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
       <Alert variant="success">This is a success alert—check it out!</Alert>
+      <img src="https://first-fence-ltd.mo.cloudinary.net/image-collection/64d350fbf11ebb139a56e896/2947e72b-0e13-46c3-801b-0594a3327650.png?tx=w_800,h_680" alt="30% Off Farm Gates"></img>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
