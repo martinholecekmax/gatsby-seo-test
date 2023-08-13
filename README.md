@@ -34,8 +34,12 @@ The large number of unused components in the megapack folder does not seem to ha
 
 Install a couple of unused npm packages to test the effect of unused JavaScript and CSS on SEO.
 
-Start with the following packages:
+Start with the following package:
 
 - Material UI which supposedly has a large impact on SEO:
 
 npm install @mui/material @emotion/react @emotion/styled
+
+Results:
+
+Seems to have no effect on SEO if the packages are not imported.

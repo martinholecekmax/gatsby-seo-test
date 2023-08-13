@@ -1,5 +1,6 @@
 import * as React from "react"
 import { SEO } from '../components/seo'
+import { Button } from '@mui/material'
 
 const pageStyles = {
   color: "#232129",
@@ -134,6 +135,7 @@ const IndexPage = () => {
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
+        <Button variant="contained">Contained</Button>
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
