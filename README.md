@@ -68,3 +68,13 @@ Performance slightly decreases due to CLS.
 - PageSpeed Insights: https://pagespeed.web.dev/analysis/https-gatsbyseotestmaster-gatsbyjs-io/8zz4zjo0vi?form_factor=mobile
 
 Fix CLS by adding width and height attributes to the image tag.
+
+Results:
+
+Performance is back to normal. There are some small issues with image resolution which can be fixed by loading larger images from the cloudinary.
+
+PageSpeed Insights: https://pagespeed.web.dev/analysis/https-gatsbyseotestmaster-gatsbyjs-io/dvb5j66u40?form_factor=mobile
+
+Next, I will make the image to be LCP component instead of h1 text. This will test the effect of images on LCP. I've also added some more images out of the viewport and CSS style file to see the impact of the CSS style file on LCP.
+
+Results:

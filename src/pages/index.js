@@ -3,17 +3,14 @@ import { SEO } from '../components/seo'
 import { Button } from '@mui/material'
 import { Alert } from 'react-bootstrap'
 
+import * as styles from './index.module.css'
+
 const pageStyles = {
   color: "#232129",
-  padding: 96,
 }
 const headingStyles = {
   marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
+  marginBottom: 10,
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -32,7 +29,6 @@ const listStyles = {
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 24,
-  maxWidth: 560,
   marginBottom: 30,
 }
 
@@ -127,16 +123,16 @@ const links = [
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main style={pageStyles} className="container">
       <h1 style={headingStyles}>
         SEO Test Site Mega Pack
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
-      <Alert variant="success">This is a success alert—check it out!</Alert>
-      <img src="https://first-fence-ltd.mo.cloudinary.net/image-collection/64d350fbf11ebb139a56e896/2947e72b-0e13-46c3-801b-0594a3327650.png?tx=w_800,h_680"
+      <img
+        className={styles.image}
+        src="https://first-fence-ltd.mo.cloudinary.net/image-collection/64d350fbf11ebb139a56e896/2947e72b-0e13-46c3-801b-0594a3327650.png?tx=w_1200,h_1020"
         width="800" height="680"
         alt="30% Off Farm Gates"></img>
+      <Alert variant="success">This is a success alert—check it out!</Alert>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
@@ -170,6 +166,16 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
+      <img
+        className={styles.image}
+        src="https://first-fence-ltd.mo.cloudinary.net/products/649d61d850e18a97fdd87342/images/d179619b-209a-4452-b261-25d85d4ac4f5.png?tx=w_1200,h_1020"
+        width="800" height="680"
+        alt="30% Off Farm Gates"></img>
+      <img
+        className={styles.image}
+        src="https://first-fence-ltd.mo.cloudinary.net/products/635121a34f6eac172ccb16a5/images/be0778d2-bc28-4d14-848e-70a066f023e2.png?tx=w_1200,h_1020"
+        width="800" height="680"
+        alt="30% Off Farm Gates"></img>
     </main>
   )
 }
