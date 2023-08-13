@@ -42,4 +42,8 @@ npm install @mui/material @emotion/react @emotion/styled
 
 Results:
 
-Seems to have no effect on SEO if the packages are not imported.
+Seems to have no effect on SEO. I've also tried to import the button from this package on the home page and it doesn't seem to have any effect on SEO.
+
+Try next to add bootstrap package:
+
+npm install react-bootstrap bootstrap

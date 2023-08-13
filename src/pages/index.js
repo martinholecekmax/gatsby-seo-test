@@ -1,6 +1,7 @@
 import * as React from "react"
 import { SEO } from '../components/seo'
 import { Button } from '@mui/material'
+import { Alert } from 'bootstrap'
 
 const pageStyles = {
   color: "#232129",
@@ -146,6 +147,7 @@ const IndexPage = () => {
             {docLink.text}
           </a>
         </li>
+        <Alert variant="success">This is a success alert—check it out!</Alert>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
             <span>
