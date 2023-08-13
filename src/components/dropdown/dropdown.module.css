@@ -1,0 +1,45 @@
+.container {
+  margin-bottom: 15px;
+}
+
+.dropdownBar {
+  background-color: rgb(237, 237, 237);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  color: rgb(60, 60, 59);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.dropdownBar:hover,
+.dropdownBar:focus,
+.dropdownBar:active {
+  background-color: rgb(226, 225, 225);
+  cursor: pointer;
+}
+
+.content {
+  border: 2px solid rgb(246, 246, 246);
+  padding: 22px 23px;
+}
+
+@media (max-width: 800px) {
+  .dropdownBar {
+    font-size: 18px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .icon {
+    width: 25px;
+  }
+}

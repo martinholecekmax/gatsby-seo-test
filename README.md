@@ -13,3 +13,7 @@ The master branch will serve as the test of the most recent version of the site 
 ### Baseline
 
 The baseline branch will be a simple site with no images, scripts, etc. The only thing it will have is a single page with some text.
+
+PageSpeed Insights test: https://pagespeed.web.dev/analysis/https-gatsbyseotestmaster-gatsbyjs-io/se5xch6n9w?form_factor=mobile
+
+WebPageTest test: https://www.webpagetest.org/result/230813_BiDcFF_2K7/
